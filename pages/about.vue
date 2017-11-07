@@ -4,7 +4,7 @@
       <div class="hero-body">
         <div class="container">
           <h1 class="title">
-            Easy Metadata
+            Metadiff
           </h1>
           <h2 class="subtitle">
             This is a tool made to compare the metadata from any two sites.
@@ -12,8 +12,19 @@
             without losing SEO, data needed for social media sites or anything
             related to the document HEAD meta tags.
           </h2>
+
+          <h2 class="subtitle">
+            For developers working on localhost,
+            I recommend to <a class="link" href="https://github.com/ederchrono/metadiff" target="_blank">clone and run the project locally</a>.
+          </h2>
         </div>
       </div>
     </section>
   </div>
 </template>
+
+<style scoped>
+.link {
+  color: #1C7293;
+}
+</style>

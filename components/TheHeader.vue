@@ -16,12 +16,12 @@
 
     <div class="navbar-menu" :class="{'is-active': menuOpen}">
       <div class="navbar-end">
-        <a class="navbar-item" href="https://github.com/ederchrono" target="_blank">
-            On Github
-        </a>
         <nuxt-link class="navbar-item" to="/about">
             About
         </nuxt-link>
+        <a class="navbar-item" href="https://github.com/ederchrono/metadiff" target="_blank">
+            On Github
+        </a>
       </div>
     </div>
 

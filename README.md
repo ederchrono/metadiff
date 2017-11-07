@@ -1,4 +1,4 @@
-# easy-metadata
+# Metadiff
 
 > A project to help managing site metatags
 
