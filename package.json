@@ -10,7 +10,7 @@
   "scripts": {
     "dev": "cross-env HOST=0.0.0.0 PORT=3001 backpack dev",
     "build": "nuxt build && backpack build",
-    "postinstall": "nuxt build && backpack build",
+    "heroku-postbuild": "npm run build",
     "start": "cross-env NODE_ENV=production node build/main.js",
     "precommit": "npm run lint",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
@@ -24,7 +24,9 @@
     "metascraper": "^1.0.7",
     "nuxt": "^1.0.0-rc3",
     "source-map-support": "^0.4.15",
-    "vue-clipboard2": "0.0.6",
+    "vue-clipboard2": "0.0.6"
+  },
+  "devDependencies": {
     "babel-eslint": "^7.2.3",
     "backpack-core": "^0.4.1",
     "eslint": "^4.3.0",
@@ -37,8 +39,5 @@
     "eslint-plugin-standard": "^3.0.1",
     "node-sass": "^4.6.0",
     "sass-loader": "^6.0.6"
-  },
-  "devDependencies": {
-
   }
 }
