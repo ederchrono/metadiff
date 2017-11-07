@@ -23,6 +23,18 @@
   </div>
 </template>
 
+<script>
+export default {
+  head () {
+    return {
+      title: 'Metadiff | About',
+      description: 'A metadata utility for developers.'
+    }
+  }
+}
+</script>
+
+
 <style scoped>
 .link {
   color: #1C7293;

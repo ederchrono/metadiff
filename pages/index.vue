@@ -68,7 +68,8 @@ export default {
 
   head () {
     return {
-      title: 'Metadiff'
+      title: 'Metadiff',
+      description: 'A metadata utility for developers.'
     }
   }
 }
