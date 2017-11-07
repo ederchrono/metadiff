@@ -28,6 +28,11 @@
       </div>
 
       <message-box
+        v-if="meta1Count === meta2Count && differencesCount === 0"
+        instructions="Awesome! Both sites look the same."
+        operation="add"/>
+
+      <message-box
         v-if="meta1Count !== meta2Count && differencesCount === 0"
         instructions="Caution: You may have duplicated metatags"
         operation="delete"/>
