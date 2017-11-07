@@ -1,10 +1,7 @@
 <template>
   <footer class="page-footer">
-    <div class="footer-text">
-      Developed by Eder Díaz
-    </div>
     <a class="footer-link" target="_blank" href="http://ederdiaz.com">
-      EderDiaz.com
+      EderDiaz
     </a>
   </footer>
 </template>
