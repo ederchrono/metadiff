@@ -8,7 +8,7 @@
           <input class="input"
             :class="{'is-success': metadataGot, 'is-danger': metadataFail}"
             type="text"
-            placeholder="URL to fetch metatags"
+            placeholder="Insert a valid URL"
             v-model="urlToCheck">
           <span v-if="metadataGot" class="icon is-small is-right">
             <i class="fa fa-check"></i>
@@ -46,7 +46,7 @@ import isEmpty from 'lodash/isEmpty'
 export default {
   data () {
     return {
-      urlToCheck: 'http://www.foxnews.com/about/company/',
+      urlToCheck: '',
       metadata: '',
       isLoading: false
     }
