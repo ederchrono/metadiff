@@ -97,7 +97,6 @@ export default {
       const jsonLine = line
         .replace(/'/g, '\\\'')
         .replace(/"/g, '\'')
-        .replace(/,/g, '\', ')
         .replace(/':/g, '\': ')
 
       if (index < this.lines.length - 1) {
