@@ -32,7 +32,7 @@ const specialRules = {
       .map((i, tag) => {
         let obj = {}
         for (var key in tag.attribs) {
-          if (key !== 'data-n-head' && key !== 'data-hid') {
+          if (key !== 'data-n-head' && key !== 'data-hid' && key !== 'hid') {
             obj[key] = tag.attribs[key]
           }
         }
