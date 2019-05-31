@@ -22,13 +22,13 @@
     "express": "^4.15.3",
     "lodash": "^4.17.11",
     "metascraper": "^1.0.7",
-    "nuxt": "^1.0.0-rc3",
+    "nuxt": "^2.8.0",
     "source-map-support": "^0.4.15",
     "vue-clipboard2": "0.0.6"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "backpack-core": "^0.7.0",
+    "backpack-core": "^0.8.3",
     "eslint": "^4.3.0",
     "eslint-config-standard": "^10.2.1",
     "eslint-loader": "^1.9.0",
