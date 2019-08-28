@@ -20,7 +20,7 @@
     "cross-env": "^5.0.1",
     "deep-diff": "^0.3.8",
     "express": "^4.15.3",
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.15",
     "metascraper": "^1.0.7",
     "nuxt": "^2.8.0",
     "source-map-support": "^0.4.15",
